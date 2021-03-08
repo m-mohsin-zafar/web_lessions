@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Home</title>
+    <meta name="description" content="Lecture 3 Basics of HTML">
+    <meta name="keywords" content="HTML, Fundamentals">
+    <meta name="author" content="Mohsin">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/master.css">
+    <style media="screen">
+      li, a {
+        display: inline;
+        padding: 5px;
+      }
+      #main_section {
+        display: block;
+        width: 100%;
+      }
+      #pic_div {
+        display: inline-block;
+        width: 30%;
+        height: 200px;
+        background-color: blue;
+      }
+      #about_div {
+        display: inline-block;
+        width: 68%;
+        height: 200px;
+        background-color: yellow;
+      }
+      footer {
+        display: block;
+        width: 98.5%;
+        height: 30px;
+        background: lightgray;
+      }
+      footer > p {
+        text-align: center;
+        color: blue;
+        padding: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ol>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ol>
+    </nav>
+    <section id="main_section">
+      <div id="pic_div">
+
+      </div>
+      <div id="about_div">
+        <article id="ab_me">
+
+        </article>
+      </div>
+    </section>
+    <section>
+      <div>
+        <p>Let us get to know textual tags in HTML</p>
+        <hr>
+        <pre>
+          x + 5 = 6
+          y + 7 = 20
+        </pre>
+        <blockquote>
+          Live and Let others live
+        </blockquote>
+        <code>
+          <pre>
+            for i in range(0, len(x)):
+              print(i)
+          </pre>
+        </code>
+        <p>This is an example of <span><i>Span</i></span></p>
+      </div>
+    </section>
+    <footer>
+      <p>Copyright © AU | DCAI | 2021</p>
+    </footer>
+  </body>
+</html>
